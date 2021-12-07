@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="PL1G06.Minesweeper.UWP.Views.ViewGame"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PL1G06.Minesweeper.UWP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+
+    Background="DarkGreen" FontFamily="Segoe UI">
+
+    <Grid>
+
+        <Grid HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" MinWidth="200">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="buttonJogo" HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="50" Click="ButtonJogo_Click">
+            </Button>
+
+            <TextBox x:Name="textBoxFlags" HorizontalAlignment="Left" Margin="0,0,0,0" Text="000" VerticalAlignment="Top" FontSize="20" TextAlignment="Center" MaxLength="3" IsReadOnly="True" FontWeight="Bold" Padding="0,0,0,0" BorderThickness="2,2,2,2" FontStretch="Normal" Width="70" FontFamily="Segoe UI"/>
+            <TextBox x:Name="textBoxTempo" HorizontalAlignment="Right" Margin="0,0,0,0" Text="000" VerticalAlignment="Top" FontSize="20" TextAlignment="Center" MaxLength="3" IsReadOnly="True" FontWeight="Bold" Padding="0,0,0,0" BorderThickness="2,2,2,2" FontStretch="Normal" Width="70" FontFamily="Segoe UI"/>
+
+            <Grid x:Name="gridJogo" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Row="1"/>
+
+        </Grid>
+        <Button x:Name="buttonSair" Content="Sair" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" FontSize="20" FocusVisualPrimaryBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" Foreground="DarkGreen" Background="White" BorderBrush="{x:Null}" MinWidth="100" Click="ButtonSair_Click"/>
+
+    </Grid>
+</Page>
