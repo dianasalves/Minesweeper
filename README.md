@@ -7,7 +7,7 @@ qualquer um deles com a linguagem C#. As duas aplicações são implementadas de
 reutilização dos componentes Model e Controller entre as aplicações.
 
 Descrição Funcional:
-  A plataforma a desenvolver deverá incorporar as seguintes funcionalidades:
+  A plataforma desenvolvida incorpora as seguintes funcionalidades:
       • Apresenta dois níveis de dificuldade que fazem variar a dimensão do campo e o correspondente número de minas:
             o Fácil – campo 9x9 com 10 minas
             o Médio – campo 16x16 com 40 minas
