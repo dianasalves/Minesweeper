@@ -61,6 +61,7 @@ Requirements of the developed project:
         • When you open a house with neighborhood 0, automatically all neighboring and unmarked houses are opened (clicked). The action is repeated for all houses in 
           the neighborhood with a value of 0. 
         • In case of victory, save the result if you have the best time (offline)
-        • Save the result on the server – victory or defeat (online) General features: 
+        • Save the result on the server – victory or defeat (online) 
+      General features: 
         • Data model same in both implemented projects 
-          • Application logic code (controller) with common parts
+        • Application logic code (controller) with common parts
