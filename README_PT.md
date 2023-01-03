@@ -1,4 +1,4 @@
-# Minesweeper
+# Campo de Minas
 Neste projeto foi desenvolvido duas aplicações, em ambientes de execução diferentes, que permitam ao utilizador jogar “Campo Minado” em modo solitário 
 (anónimo ou autenticado em rede). Foi utilizado o Microsoft Visual Studio 2019 e dois templates aplicacionais:
   • Windows Forms App (.NET Framework) (obrigatório);
